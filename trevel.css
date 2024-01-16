@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 14px;
-    margin-bottom: -500px;
+    margin-bottom: -2200px;
 }
 
 header {
@@ -92,7 +92,7 @@ nav li {
     align-items: center;
 }
 .tour-contain{
-    display: flex;
+    
 }
 .popular-tours h1 {
     color: #131318;
@@ -125,6 +125,170 @@ nav li {
     border-radius: 5px; 
 }
 
+/* Destination */
+.destination {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.destination .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.destination .top h1 {
+    font-size: 40px;
+}
+
+.destination .top P {
+    padding: 20px 0;
+    width: 50%;
+    text-align: center;
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 100%;
+    height: 50vh;
+    margin-top: 2vw;
+    gap: 20px;
+    display: grid;
+}
+
+.img1 {
+    grid-template-columns: 40% 40%;
+}
+
+.img2 {
+    grid-template-columns: 20% 40% 20%;
+}
+
+.img3 {
+    grid-template-columns: 30% 50%;
+}
+
+.img1-1,
+.img1-2,
+.img2-1,
+.img2-2,
+.img2-3,
+.img3-1,
+.img3-2 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 30px;
+    border-radius: 20px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+
+
+.img1-1 {
+    background-image: url("maldives.png");
+}
+
+.img1-2 {
+    background-image: url("Sri-lanka.png");
+}
+
+.img2-1 {
+    background-image: url("indonesia.png");
+}
+
+.img2-2 {
+    background-image: url("north-ameria.png");
+}
+
+.img2-3 {
+    background-image: url("Kashmir.png");
+}
+
+
+.img3-1 {
+    background-image: url("Bangladesh.png");
+}
+
+.img3-2 {
+    background-image: url("bandarban.png");
+}
+/* Why chosse us */
+.whyUs {
+margin-top: 3vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+
+.whyUs-t {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.whyUs-t h1 {
+font-size: 2vw;
+margin-bottom: 2vw;
+}
+
+.whyUs-t p {
+text-align: center;
+width: 80%;
+font-size: 0.8vw;
+margin-bottom: 2vw;
+}
+
+.whyUs-m {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+padding: 10px;
+}
+.whyUs-m1 {
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+
+.whyUs-m2 {
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.whyUs-b {
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+.whyUs-m1,
+.whyUs-m2,
+.whyUs-b {
+border-radius: 10px;
+padding: 30px;
+width: 30vw;
+height: 12vw;
+}
+
+.whyUs-m1 h4,
+.whyUs-m2 h4,
+.whyUs-b h4 {
+font-size: 1.2vw;
+padding: 0.8vw 0;
+}
 
 
 
