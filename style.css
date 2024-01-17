@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 14px;
-    margin-bottom: -3150px;
+    margin-bottom: -3300px;
 }
 
 header {
@@ -383,12 +383,136 @@ padding: 0.8vw 0;
    border-top-color: #cccccc; 
 }
 
+@media (max-width: 600px) {
+    body{
+        margin-bottom:-3000px ;
+    }
+    header {
+        padding: 10px 10px;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    .AMA h1 {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .AMA p {
+        margin-left: 0;
+    }
+
+    .form-section {
+        flex-direction: column;
+        
+    }
+
+    #find-btn {
+        width: 100%;
+    }
+
+    .popular-tours,
+    .destination {
+        flex-direction: column;
+    }
+
+    .popular-tours h1,
+    .destination .top h1 {
+        font-size: 24px;
+    }
+
+    .popular-tours img,
+    .destination .top p,
+    .destination .top h1 {
+        width: 100%;
+    }
+
+    .read-more-button {
+        width: 100%;
+    }
+
+    .img1-1,
+    .img1-2,
+    .img2-1,
+    .img2-2,
+    .img2-3,
+    .img3-1,
+    .img3-2 {
+        height: 400px; 
+    }
+
+    .whyUs-t h1 {
+        font-size: 16px;
+        
+    }
+
+    .whyUs-t p {
+        width: 100%;
+        font-size: 12px;
+        
+    }
+
+    .whyUs-m,
+    .whyUs-b {
+        width: 100%;
+      
+        
+    }
+
+    .whyUs-m1 h4,
+    .whyUs-m2 h4,
+    .whyUs-b h4 {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .newsletter-section {
+        flex-direction: column;
+    }
+
+    .subscription-form {
+        width: 100%;
+    }
+
+    .subscription-form input[type=text],
+    .subscription-form input[type=email] {
+        width: 100%;
+    }
+
+    .subscription-form button {
+        width: 100%;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .offer-banner {
+        flex-direction: column;
+    }
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .social-icons img {
+        flex-direction: column;
+      
+    }
+}
+
    
 
-
-@media (max-width: 600px) {
-}
-
-@media (min-width: 992px) {
-    
-}
